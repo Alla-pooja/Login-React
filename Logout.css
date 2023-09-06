@@ -1,0 +1,32 @@
+.logout{
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .logout_but{
+    min-width: 300px;
+    padding: 17px 30px;
+    margin-top: 20px;
+    background: black;
+    border:none;
+    color: white;
+    font-size: 14px;
+    border-radius: 15px;
+    align-items: center;
+  }
+  .user{
+    color:blueviolet
+    
+  }
+  .pooja{
+    text-align: center;
+    margin-top: 250px;
+    align-items: center;
+    justify-content: center;
+  }
+  .logout_but:hover{
+    background: green;
+    color: yellowgreen;
+  }

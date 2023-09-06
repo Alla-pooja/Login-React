@@ -1,0 +1,39 @@
+.login{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height:100vh;
+    flex-direction: column;
+  
+  }
+  .login_form{
+    display:flex;
+    flex-direction: column;
+  }
+  .login_form >h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    letter-spacing: -1px;
+    text-align: center;
+  }
+  .login_form > input{
+    min-width: 100px;
+    padding: 20px 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    outline: navy;
+    border : 2px solid black;
+    border-radius: 25px;
+    font-size:20px;
+    background-image: ("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.popsci.com%2Fenvironment%2Fbutterfly-evolution-america%2F&psig=AOvVaw1MBmpPBbUV1qHcaak8obQt&ust=1694011390950000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPj4larak4EDFQAAAAAdAAAAABAE");
+  }
+  .submit_btn{
+    padding: 17px 25px;
+    margin-top: 10px;
+    background: black;
+    border: none;
+    color:white;
+    font-size:19px;
+    border-radius: 25px;
+  }
